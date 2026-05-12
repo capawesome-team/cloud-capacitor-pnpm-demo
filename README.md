@@ -8,14 +8,14 @@ This template only support the web platform by default.
 If you need the Android or iOS platform for your example, simply add it via the [Capacitor CLI](https://capacitorjs.com/docs/cli):
 
 ```
-npm install @capacitor/<platform>
-npx cap add <platform>
+pnpm add @capacitor/<platform>
+pnpm exec cap add <platform>
 ```
 
 ## Running this example
 
-To run the provided example, you can use `npm start` command.
+To run the provided example, you can use `pnpm start` command.
 
 ```bash
-npm start
+pnpm start
 ```

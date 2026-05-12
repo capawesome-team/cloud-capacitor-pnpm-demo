@@ -23,5 +23,6 @@
     "vite": "^2.9.13"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "packageManager": "pnpm@11.1.0"
 }
