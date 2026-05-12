@@ -1,0 +1,11 @@
+{
+  "cloud": {
+    "apps": [
+      {
+        "appId": "8c2c05ca-ef52-4a93-a362-3188de51475c",
+        "dependencyInstallCommand": "npm install -g pnpm && pnpm install",
+        "webBuildCommand": "pnpm build"
+      }
+    ]
+  }
+}

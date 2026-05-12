@@ -1,21 +1,29 @@
-# capacitor-app
+# cloud-capacitor-pnpm-demo
 
-⚡️ Capacitor app template to create a minimal, reproducible example.
+[![Capawesome](https://github.com/capawesome-team/cloud-capacitor-pnpm-demo/actions/workflows/capawesome.yml/badge.svg)](https://github.com/capawesome-team/cloud-capacitor-pnpm-demo/actions/workflows/capawesome.yml)
 
-This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app), and comes with a very minimal shell for building an app.
+A demo project that shows how to build a [Capacitor](https://capacitorjs.com/) app managed with [pnpm](https://pnpm.io/) using [Capawesome Cloud](https://capawesome.io/cloud/).
 
-This template only support the web platform by default.
-If you need the Android or iOS platform for your example, simply add it via the [Capacitor CLI](https://capacitorjs.com/docs/cli):
+## Stack
 
-```
-pnpm add @capacitor/<platform>
-pnpm exec cap add <platform>
-```
+- [Capacitor](https://capacitorjs.com/) — iOS
+- [pnpm](https://pnpm.io/) — package manager
+- [Swift Package Manager](https://www.swift.org/documentation/package-manager/) — native iOS dependencies
+- [Vite](https://vitejs.dev/) — web build
 
-## Running this example
+## Continuous Integration
 
-To run the provided example, you can use `pnpm start` command.
+[`.github/workflows/capawesome.yml`](.github/workflows/capawesome.yml) builds the app on every push to `main`, on pull requests, and on manual dispatch using the [Capawesome CLI](https://capawesome.io/docs/cloud/cli/).
 
-```bash
-pnpm start
-```
+A [`capawesome.config.json`](capawesome.config.json) file at the repository root tells Capawesome Cloud to install dependencies and build the web assets using `pnpm`.
+
+### Required GitHub Secrets
+
+| Secret | Description |
+| --- | --- |
+| `CAPAWESOME_CLOUD_TOKEN` | API token for Capawesome Cloud. |
+| `CAPAWESOME_CLOUD_APP_ID` | ID of the corresponding app in Capawesome Cloud. |
+
+## License
+
+See [LICENSE](LICENSE).
