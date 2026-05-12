@@ -6,7 +6,7 @@ A demo project that shows how to build a [Capacitor](https://capacitorjs.com/) a
 
 ## Stack
 
-- [Capacitor](https://capacitorjs.com/) — iOS
+- [Capacitor](https://capacitorjs.com/) — Android + iOS
 - [pnpm](https://pnpm.io/) — package manager
 - [Swift Package Manager](https://www.swift.org/documentation/package-manager/) — native iOS dependencies
 - [Vite](https://vitejs.dev/) — web build

@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capacitor/android": "^8.3.3",
     "@capacitor/browser": "latest",
     "@capacitor/core": "latest",
     "@capacitor/ios": "^8.0.0",
