@@ -20,6 +20,7 @@
     "@capacitor/splash-screen": "latest"
   },
   "devDependencies": {
+    "@capacitor/cli": "latest",
     "vite": "^2.9.13"
   },
   "author": "",
