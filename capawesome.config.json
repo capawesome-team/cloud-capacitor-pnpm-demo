@@ -4,7 +4,7 @@
       {
         "appId": "8c2c05ca-ef52-4a93-a362-3188de51475c",
         "dependencyInstallCommand": "pnpm install",
-        "webBuildCommand": "pnpm build"
+        "webBuildCommand": "pnpm --version && pnpm build"
       }
     ]
   }
