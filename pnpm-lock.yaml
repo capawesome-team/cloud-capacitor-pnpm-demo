@@ -9,55 +9,55 @@ importers:
   .:
     dependencies:
       '@capacitor/android':
-        specifier: ^8.3.3
-        version: 8.3.3(@capacitor/core@8.3.3)
+        specifier: ^8.5.2
+        version: 8.5.2(@capacitor/core@8.5.2)
       '@capacitor/browser':
-        specifier: latest
-        version: 8.0.3(@capacitor/core@8.3.3)
+        specifier: 8.0.5
+        version: 8.0.5(@capacitor/core@8.5.2)
       '@capacitor/core':
-        specifier: latest
-        version: 8.3.3
+        specifier: 8.5.2
+        version: 8.5.2
       '@capacitor/ios':
-        specifier: ^8.0.0
-        version: 8.3.3(@capacitor/core@8.3.3)
+        specifier: ^8.5.2
+        version: 8.5.2(@capacitor/core@8.5.2)
       '@capacitor/splash-screen':
-        specifier: latest
-        version: 8.0.1(@capacitor/core@8.3.3)
+        specifier: 8.0.2
+        version: 8.0.2(@capacitor/core@8.5.2)
     devDependencies:
       '@capacitor/cli':
-        specifier: latest
-        version: 8.3.3
+        specifier: 8.5.2
+        version: 8.5.2
       vite:
         specifier: ^2.9.13
         version: 2.9.18
 
 packages:
 
-  '@capacitor/android@8.3.3':
-    resolution: {integrity: sha512-Km7/voqtWVrN+qDHktoYb7DIliW+eakglH4jyT7C0dxODW/gDrMi19yC0ATNM2+rtaj3e2i46pgZ3A5UCa+44Q==}
+  '@capacitor/android@8.5.2':
+    resolution: {integrity: sha512-rtiaz78egCcS+vs29wkWCL3C+RhazKMSygXcjutwWP8NmO6r5UBxOvGf3Wjz5+ahobyQ723tn9gCePwRwcNDZQ==}
     peerDependencies:
-      '@capacitor/core': ^8.3.0
+      '@capacitor/core': ^8.5.0
 
-  '@capacitor/browser@8.0.3':
-    resolution: {integrity: sha512-WJWPHEPbweiFoHYmVlCbZf5yrqJ2Rchx2Xvbmd+3Lf+Zkpq3nXBThThY2CF69lYEg1NINGF9BcHThIOEU1gZlQ==}
+  '@capacitor/browser@8.0.5':
+    resolution: {integrity: sha512-qqcEjUqs9kG1naF+tsD8rERuZ3wuIfXzvoIJEERHI4RNWwNSUqAHHduaKhkyb+t01VyVPa0ydx0mZ/eOskk2Ug==}
     peerDependencies:
       '@capacitor/core': '>=8.0.0'
 
-  '@capacitor/cli@8.3.3':
-    resolution: {integrity: sha512-FHebL02KEyU5vs+Os5s1yZuE8QT3FzxoO4nZLywGk7Ny957E6gOujKouGKsnKYq01eAWWJGGV/Fv04rY27tSsw==}
+  '@capacitor/cli@8.5.2':
+    resolution: {integrity: sha512-O2kpA5ZPJUAmliDCcmpMf8xnJwMezxlFPUrlyOAjbL3U9MFNY3l4ZpPI/UXwvyPmR8ETcVF9pFr+VdWq61rqTQ==}
     engines: {node: '>=22.0.0'}
     hasBin: true
 
-  '@capacitor/core@8.3.3':
-    resolution: {integrity: sha512-xx1FIriZQ5jwqEkZwmWQHfXNEn5a9ZLOtdFoJXslh0ian6T/EU+QJtRmZw3KRsmcUV6p5ufczBrzF1rVP8Nu3A==}
+  '@capacitor/core@8.5.2':
+    resolution: {integrity: sha512-agnQbGdhGw/KZFuLf7H9SY2o+oE7upkr/WPQsYaokXP6f9chaE8iVmbKkfN6SVl4w3pmz7oZ3Ur1hbkmy1hx+w==}
 
-  '@capacitor/ios@8.3.3':
-    resolution: {integrity: sha512-BHlTOxarrvkaqDdlTxKwip+dQmfQSnfctizpheR7SWp/VIlR0HcPpYzWMTiVbHQLq3nLRUdeZO1wSPVGvxzAPA==}
+  '@capacitor/ios@8.5.2':
+    resolution: {integrity: sha512-eOT2S67AfTFG7KN0T3oxwAajrJz4rSye+ODfvChiwrk0F/+kWufFM1qU6cDjGJUOfwdAoeuEpZyWHSwZlu4GFg==}
     peerDependencies:
-      '@capacitor/core': ^8.3.0
+      '@capacitor/core': ^8.5.0
 
-  '@capacitor/splash-screen@8.0.1':
-    resolution: {integrity: sha512-c/ew/Z3eA7z8l06WoRAtzVF16VwYYrExmHmfGq1Cg675pVzaC/yuucB8/1xG1vhEfnW4fZ1KhSf/kzR1RiVYgg==}
+  '@capacitor/splash-screen@8.0.2':
+    resolution: {integrity: sha512-0C6rYScr13WfAE9nPl4ScOQynmjFv9NT3Th+RZkD4ezYHmER6mcl1/lDYsv7jg3Rj3FOvLrlTlmNkUrr83kZzQ==}
     peerDependencies:
       '@capacitor/core': '>=8.0.0'
 
@@ -112,8 +112,8 @@ packages:
   '@types/slice-ansi@4.0.0':
     resolution: {integrity: sha512-+OpjSaq85gvlZAYINyzKpLeiFkSC4EsC6IIiT6v6TLSU5k5U83fHGj9Lel8oKEXM0HqgrMVCjXPDPVICtxF7EQ==}
 
-  '@xmldom/xmldom@0.9.10':
-    resolution: {integrity: sha512-A9gOqLdi6cV4ibazAjcQufGj0B1y/vDqYrcuP6d/6x8P27gRS8643Dj9o1dEKtB6O7fwxb2FgBmJS2mX7gpvdw==}
+  '@xmldom/xmldom@0.9.12':
+    resolution: {integrity: sha512-5AXjrcMClTryPe9LgZrygpB1lj7s0S9E0+W+AHaVKAVyHanafK86iPSvG5xHVSp/jC+VH1UXu0TAEmY279xH7A==}
     engines: {node: '>=14.6'}
 
   ansi-regex@5.0.1:
@@ -143,13 +143,20 @@ packages:
     resolution: {integrity: sha512-QxD8cf2eVqJOOz63z6JIN9BzvVs/dlySa5HGSBH5xtR8dPteIRQnBxxKqkNTiT6jbDTF6jAfrd4oMcND9RGbQg==}
     engines: {node: '>=0.6'}
 
+  bplist-creator@0.1.0:
+    resolution: {integrity: sha512-sXaHZicyEEmY86WyueLTQesbeoH/mquvarJaQNbjuOQO+7gbFcDEWqKmcWA4cOTLzFlfgvkiVxolk1k5bBIpmg==}
+
+  bplist-parser@0.3.1:
+    resolution: {integrity: sha512-PyJxiNtA5T2PlLIeBot4lbp7rj4OadzjnMZD/G5zuBNt8ei/yCU7+wW0h2bag9vr8c+/WuRWmSxbqAl9hL1rBA==}
+    engines: {node: '>= 5.10.0'}
+
   bplist-parser@0.3.2:
     resolution: {integrity: sha512-apC2+fspHGI3mMKj+dGevkGo/tCqVB8jMb6i+OX+E29p0Iposz07fABkRIfVUPNd5A5VbuOz1bZbnmkKLYF+wQ==}
     engines: {node: '>= 5.10.0'}
 
-  brace-expansion@5.0.6:
-    resolution: {integrity: sha512-kLpxurY4Z4r9sgMsyG0Z9uzsBlgiU/EFKhj/h91/8yHu0edo7XuixOIH3VcJ8kkxs6/jPzoI6U9Vj3WqbMQ94g==}
-    engines: {node: 18 || 20 || >=22}
+  brace-expansion@5.0.12:
+    resolution: {integrity: sha512-YovQ3rzhaLMIrDjNDMkNS01tea93qhEhG5xy8f6+R0l+dw3Ki+5sCoIoI942iuLZTHWogWktgwVDhU09iNEimQ==}
+    engines: {node: 20 || >=22}
 
   buffer-crc32@0.2.13:
     resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
@@ -413,8 +420,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  nanoid@3.3.12:
-    resolution: {integrity: sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==}
+  nanoid@3.3.19:
+    resolution: {integrity: sha512-Y2tUNy4ouw6tq5oDSKeQYGOyhkUBhNOcGV/02KC+6kd9eDGqdZd++mjMiIDilrBYvjEnCYvVtsuHCuP+okSfug==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -451,8 +458,8 @@ packages:
     resolution: {integrity: sha512-ZIfcLJC+7E7FBFnDxm9MPmt7D+DidyQ26lewieO75AdhA2ayMtsJSES0iWzqJQbcVRSrTufQoy0DR94xHue0oA==}
     engines: {node: '>=10.4.0'}
 
-  postcss@8.5.14:
-    resolution: {integrity: sha512-SoSL4+OSEtR99LHFZQiJLkT59C5B1amGO1NzTwj7TT1qCUgUO6hxOvzkOYxD+vMrXBM3XJIKzokoERdqQq/Zmg==}
+  postcss@8.5.28:
+    resolution: {integrity: sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==}
     engines: {node: ^10 || ^12 || >=14}
 
   prompts@2.4.2:
@@ -504,6 +511,9 @@ packages:
   signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
 
+  simple-plist@1.3.1:
+    resolution: {integrity: sha512-iMSw5i0XseMnrhtIzRb7XpQEXepa9xhWxGUojHBL43SIpQuDQkh3Wpy67ZbDzZVr6EKxvwVChnVpdl8hEVLDiw==}
+
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
@@ -518,6 +528,10 @@ packages:
   split2@4.2.0:
     resolution: {integrity: sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==}
     engines: {node: '>= 10.x'}
+
+  stream-buffers@2.2.0:
+    resolution: {integrity: sha512-uyQK/mx5QjHun80FLJTfaWE7JtwfRMKBLkMne6udYOmvH0CawotVa7TfgYHzAnpphn4+TweIx1QKMnRIbipmUg==}
+    engines: {node: '>= 0.10.0'}
 
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
@@ -534,8 +548,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tar@7.5.15:
-    resolution: {integrity: sha512-dzGK0boVlC4W5QFuQN1EFSl3bIDYsk7Tj40U6eIBnK2k/8ml7TZ5agbI5j5+qnoVcAA+rNtBml8SEiLxZpNqRQ==}
+  tar@7.5.22:
+    resolution: {integrity: sha512-MFO/QzvtAOmJbkhOaCTvbGcFN9L9b+JunIsDwaKljSOdcLMea3NJ1k9Usz/rjdfSXTq4dfzfeS7W4p4YOAAHeA==}
     engines: {node: '>=18'}
 
   through2@4.0.2:
@@ -562,6 +576,11 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
+  uuid@7.0.3:
+    resolution: {integrity: sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+    hasBin: true
+
   vite@2.9.18:
     resolution: {integrity: sha512-sAOqI5wNM9QvSEE70W3UGMdT8cyEn0+PmJMTFvTB8wB0YbYUWw3gUbY62AOyrXosGieF2htmeLATvNxpv/zNyQ==}
     engines: {node: '>=12.2.0'}
@@ -587,6 +606,10 @@ packages:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
     engines: {node: '>=10'}
 
+  xcode@3.0.1:
+    resolution: {integrity: sha512-kCz5k7J7XbJtjABOvkc5lJmkiDh8VhjVCGNiqdKCscmVpdVUpEAyXv1xmCLkQJ5dsHqx3IPO4XW+NTDhU/fatA==}
+    engines: {node: '>=10.0.0'}
+
   xml2js@0.6.2:
     resolution: {integrity: sha512-T4rieHaC1EXcES0Kxxj4JWgaUQHDk+qwHcYOCFHfiwKz7tOVPLq7Hjq9dM1WCMhylqMEfP7hMcOIChvotiZegA==}
     engines: {node: '>=4.0.0'}
@@ -608,15 +631,15 @@ packages:
 
 snapshots:
 
-  '@capacitor/android@8.3.3(@capacitor/core@8.3.3)':
+  '@capacitor/android@8.5.2(@capacitor/core@8.5.2)':
     dependencies:
-      '@capacitor/core': 8.3.3
+      '@capacitor/core': 8.5.2
 
-  '@capacitor/browser@8.0.3(@capacitor/core@8.3.3)':
+  '@capacitor/browser@8.0.5(@capacitor/core@8.5.2)':
     dependencies:
-      '@capacitor/core': 8.3.3
+      '@capacitor/core': 8.5.2
 
-  '@capacitor/cli@8.3.3':
+  '@capacitor/cli@8.5.2':
     dependencies:
       '@ionic/cli-framework-output': 2.2.8
       '@ionic/utils-subprocess': 3.0.1
@@ -632,23 +655,24 @@ snapshots:
       prompts: 2.4.2
       rimraf: 6.1.3
       semver: 7.8.0
-      tar: 7.5.15
+      tar: 7.5.22
       tslib: 2.8.1
+      xcode: 3.0.1
       xml2js: 0.6.2
     transitivePeerDependencies:
       - supports-color
 
-  '@capacitor/core@8.3.3':
+  '@capacitor/core@8.5.2':
     dependencies:
       tslib: 2.8.1
 
-  '@capacitor/ios@8.3.3(@capacitor/core@8.3.3)':
+  '@capacitor/ios@8.5.2(@capacitor/core@8.5.2)':
     dependencies:
-      '@capacitor/core': 8.3.3
+      '@capacitor/core': 8.5.2
 
-  '@capacitor/splash-screen@8.0.1(@capacitor/core@8.3.3)':
+  '@capacitor/splash-screen@8.0.2(@capacitor/core@8.5.2)':
     dependencies:
-      '@capacitor/core': 8.3.3
+      '@capacitor/core': 8.5.2
 
   '@esbuild/linux-loong64@0.14.54':
     optional: true
@@ -743,7 +767,7 @@ snapshots:
 
   '@types/slice-ansi@4.0.0': {}
 
-  '@xmldom/xmldom@0.9.10': {}
+  '@xmldom/xmldom@0.9.12': {}
 
   ansi-regex@5.0.1: {}
 
@@ -761,11 +785,19 @@ snapshots:
 
   big-integer@1.6.52: {}
 
+  bplist-creator@0.1.0:
+    dependencies:
+      stream-buffers: 2.2.0
+
+  bplist-parser@0.3.1:
+    dependencies:
+      big-integer: 1.6.52
+
   bplist-parser@0.3.2:
     dependencies:
       big-integer: 1.6.52
 
-  brace-expansion@5.0.6:
+  brace-expansion@5.0.12:
     dependencies:
       balanced-match: 4.0.4
 
@@ -953,7 +985,7 @@ snapshots:
 
   minimatch@10.2.5:
     dependencies:
-      brace-expansion: 5.0.6
+      brace-expansion: 5.0.12
 
   minipass@7.1.3: {}
 
@@ -963,7 +995,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nanoid@3.3.12: {}
+  nanoid@3.3.19: {}
 
   native-run@2.0.3:
     dependencies:
@@ -1004,13 +1036,13 @@ snapshots:
 
   plist@3.1.1:
     dependencies:
-      '@xmldom/xmldom': 0.9.10
+      '@xmldom/xmldom': 0.9.12
       base64-js: 1.5.1
       xmlbuilder: 15.1.1
 
-  postcss@8.5.14:
+  postcss@8.5.28:
     dependencies:
-      nanoid: 3.3.12
+      nanoid: 3.3.19
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -1057,6 +1089,12 @@ snapshots:
 
   signal-exit@3.0.7: {}
 
+  simple-plist@1.3.1:
+    dependencies:
+      bplist-creator: 0.1.0
+      bplist-parser: 0.3.1
+      plist: 3.1.1
+
   sisteransi@1.0.5: {}
 
   slice-ansi@4.0.0:
@@ -1068,6 +1106,8 @@ snapshots:
   source-map-js@1.2.1: {}
 
   split2@4.2.0: {}
+
+  stream-buffers@2.2.0: {}
 
   string-width@4.2.3:
     dependencies:
@@ -1085,7 +1125,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tar@7.5.15:
+  tar@7.5.22:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0
@@ -1109,10 +1149,12 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
+  uuid@7.0.3: {}
+
   vite@2.9.18:
     dependencies:
       esbuild: 0.14.54
-      postcss: 8.5.14
+      postcss: 8.5.28
       resolve: 1.22.12
       rollup: 2.77.3
     optionalDependencies:
@@ -1127,6 +1169,11 @@ snapshots:
       ansi-styles: 4.3.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
+
+  xcode@3.0.1:
+    dependencies:
+      simple-plist: 1.3.1
+      uuid: 7.0.3
 
   xml2js@0.6.2:
     dependencies:
